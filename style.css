@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav li {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 23px;
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(153, 153, 226);
+  font-size: 1.01rem;
+}
+.left {
+  font-size: 2.3rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -100px;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 2rem;
+  top: -20px;
+}
+
+.rightSection img {
+  width: 100%;
+}
+.purple {
+  color: rgb(202, 171, 232);
+  font-weight: 800;
+}
+#element {
+  color: rgb(202, 171, 232);
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.3px;
+  margin: 40px 84px;
+}
+.text-gray {
+  color: rgb(61, 57, 57);
+}
+
+.pro-image {
+  width: 180px;
+  height: 180px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.secondSection .box {
+  background: white;
+  width: 70vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background: white;
+  margin: 0 150px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 200px;
+  font-size: 14px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: grey;
+  width: 200px;
+  font-size: 12px;
+}
+.image-top {
+  width: 50px;
+  position: relative;
+  top: -53px;
+  left: -25px;
+}
+.footer {
+  background-color: rgb(71, 5, 129);
+  height: 233px;
+  padding: 23px 100px;
+}
+.list-icons li {
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.list-icons {
+  position: relative;
+  justify-items: center;
+  left: 500px;
+}
+.l1 {
+  margin-right: 30px;
+}
+.l2 {
+  margin-right: 30px;
+}
+.l3 {
+  margin-right: 30px;
+}
+.l4 {
+  margin-right: 30px;
+}
+.footer-first {
+  font-size: 1.5rem;
+  position: relative;
+  left: 170px;
+}
